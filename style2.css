@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    box-sizing: border-box;
+}
+
+html,body {
+    width : 100%;
+    height: 100%;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: #f3f3f3;
+}
+
+header {
+    padding: 3vw;
+    background-color: #e3e3e3;
+}
+section {
+    width: 100%;
+    height: 100%;
+    padding : 30px;
+    background-color: rgb(145, 213, 220);
+    
+}
+.sec {
+    width: 100%;
+    background-color: rgb(49, 40, 40);
+}
+article {
+    background-color: black;
+    color: #fff;
+    width: 30%;
+    padding : 30px;
+    border-radius: 35px;
+    position: relative;
+}
+aside {
+    padding: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+footer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding : 30px;
+    font-weight: 200;
+}
+.pseudo-elements::selection {
+    color: blue;
+}
+.pseudo-elements::first-letter {
+    font-size: larger;
+}
+button::active {
+    background-color: blue;
+}
+.new-class p:hover {
+    color: khaki;
+}
+.new-class p:nth-child(3n) {
+    color: red;
+}
+.elem2 {
+    height: 100%;
+    width : 100%;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+}
+.elem {
+    background-color: crimson;
+    width : 100px;
+    height: 100px;
+    border : 3px solid black;
+}
+
+#nav {
+    background-color: slateblue;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10%;
+    grid-template-rows: 9vh;
+    align-items: center;
+    justify-items: center;
+    padding : 0 18px
+}
+.superheader {
+    justify-self: start;
+}
